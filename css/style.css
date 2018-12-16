@@ -215,9 +215,9 @@ nav {
 
 .first-section {
   position: relative;
-  background-image: url('../img/first.jpg');
+  background-image: url('../img/first.png');
   background-size: cover;
-  background-position: right;
+  background-position: bottom;
   height: calc(100vh - 87px);
 }
 
@@ -297,9 +297,9 @@ nav {
 }
 
 .second-right {
-  background-image: url('../img/second.jpg');
+  background-image: url('../img/second.png');
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
 
 .third-section {
@@ -327,8 +327,7 @@ nav {
 }
 
 .third-right {
-  /* background-color: #292929; */
-  background-image: url('../img/third.jpg');
+  background-image: url('../img/third.png');
   background-size: cover;
   background-position: center;
 }
@@ -572,6 +571,9 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      background-size: auto 70%;
+      background-position: center bottom;
+      background-repeat: no-repeat;
     }
 
     .first-section__holder {
